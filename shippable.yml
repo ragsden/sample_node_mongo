@@ -9,8 +9,7 @@ node_js:
 services:
   - mongodb
 
-minion:
-  type: beshippable/demo
+build_image: shippable/minv2
   
 # The path for Xunit to output test reports
 env:
