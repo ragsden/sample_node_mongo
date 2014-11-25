@@ -19,6 +19,7 @@ env:
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
+  - . $HOME/.nvm/nvm.sh && nvm install 0.10.31
 
 # Running the tests with grunt
 script:
