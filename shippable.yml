@@ -10,7 +10,7 @@ node_js:
 #services:
 #  - mongodb
 
-build_image: shippable/minv2
+#build_image: shippable/minv2
   
 # The path for Xunit to output test reports
 env:
