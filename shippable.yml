@@ -11,7 +11,7 @@ node_js:
 #  - mongodb
 
 build_image: shippable/minv2
-  
+commit_container: ragster/nodemongo  
 # The path for Xunit to output test reports
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
