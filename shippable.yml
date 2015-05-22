@@ -11,7 +11,7 @@ node_js:
 #  - mongodb
 
 
-build_image: shipimg/ubuntu1404_nodejs:latest
+#build_image: shipimg/ubuntu1404_nodejs:latest
 commit_container: ragster/nodemongo  
 # The path for Xunit to output test reports
 env:
